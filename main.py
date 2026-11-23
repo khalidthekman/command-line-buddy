@@ -1,8 +1,11 @@
+#Package Imports
 import time
+from ascii_magic import AsciiArt
+
 # Greeting
-name = input("What should the program call you? ")
+name = input("Hey! I'm commandline buddy! What should I call you? ")
 time.sleep(2)
-print(f"Welcome, {name}.")
+print(f"Hey there, {name}!")
 time.sleep(2)
 # command line logic
 while True:
@@ -20,8 +23,14 @@ while True:
     elif action == "!greet":
         print(f"Hey there, {name}! You are so coolsies bro")
     # Secret Touhou command, all roads lead to touhou
+    # Prints ASCII terminal art of Reimu plushie
     elif action == "!touhou":
+        time.sleep(0.5)
         print("...")
         time.sleep(2)
         print("Alright fine bro")
-        # Prints terminal art of Reimu plushie
+        time.sleep(1)
+        reimu = AsciiArt.from_image("reimu.png")
+        reimu.to_terminal(columns=80)
+    else: 
+        print("Yeah I didn't understand that.")
