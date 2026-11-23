@@ -18,8 +18,21 @@ while True:
     # emoticon command
     elif action == "!emoticon":
         emoti = input("what kind of emoticon would you like? Type !help for a list of emoticons: ")
-        print("INDEV")
-   # greet command
+        if emoti == "!help":
+            print("happi - :D")
+            print("sad - :(")
+            print("epic_face: (ASCII Art of the Epic Face)")
+        elif emoti == "happi":
+            print(":D")
+        elif emoti == "sad":
+            print(":(")
+        elif emoti == "epic_face":
+            print("ZOMG :DDD")
+            time.sleep(1)
+            epic_verity = AsciiArt.from_image("Epicface.webp")
+            epic_verity.to_terminal(columns=80)
+
+    # greet command
     elif action == "!greet":
         print(f"Hey there, {name}! You are so coolsies bro")
     # Secret Touhou command, all roads lead to touhou
