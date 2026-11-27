@@ -13,7 +13,7 @@ None needed, just make sure your OS can run EXE files.
 
 ### Installing
 
-Download the script from [Releases](https://github.com/khalidthekman/command-line-buddy/releases/tag/v.01)
+Download the script (main.exe) from [Releases](https://github.com/khalidthekman/command-line-buddy/releases/tag/v.01)
 
 ### Executing program
 
