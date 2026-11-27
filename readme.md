@@ -23,6 +23,7 @@ Download the script (main.exe) from [Releases](https://github.com/khalidthekman/
 ### Executing program
 > For !touhou and epic_face subcommand in !emoticon,
 > The images for them are broken because I couldn't make a standalone binary with the images attached. Everything else works as intended.
+
 Double click the file after downloading.
 
 ## License
